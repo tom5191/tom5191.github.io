@@ -1,0 +1,21 @@
+id,value,color
+Tom,
+Tom.Front-End,
+Tom.Front-End.Ps,1.5,#2E2575
+Tom.Front-End.HTML & CSS,4,#E54F24
+Tom.Front-End.Bootstrap,2,#563B7E
+Tom.Front-End.JavaScript World,
+Tom.Front-End.JavaScript World.JavaScript,3,#D6BA33
+Tom.Front-End.JavaScript World.JQuery,3,#1169AE
+Tom.Front-End.JavaScript World.D3 js,2,#F6854D
+Tom.Back-End,
+Tom.Back-End.Node.js,3.5,#2b8cc4
+Tom.Back-End.SQL,1.5,#E58E00
+Tom.Databases,
+Tom.Databases.MySQL,1.5,#00618A
+Tom.Databases.MongoDB,3.5,#2b8cc4
+Tom.Databases.Redis,2.5,#2b8cc4
+Tom.AWS.
+Tom.AWS.EC2,2,#5807af
+Tom.AWS.Route53,2,#5807af
+Tom.AWB.ELB,2,#F6854D

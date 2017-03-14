@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thomas Horner | Front End Web Developer</title>
+
+<!-- Meta -->
+<meta charset="UTF-8">
+<meta description="Thomas Horner  Front End Web Developer located in St. Peters, MO.">
+<meta keywords="Thomas, Horner, Front, End, Web Developer, Front end, Front End Developer, Front end development, St. Peters, MO, Missouri, Saint Peters, Saint Louis, St. Louis, Saint Charles, St. Charles, HTML, CSS, HTML', CSS3, jQuery, Responsive Design, Bootstrap, node.js">
+
+<!-- Reset -->
+<link rel="stylesheet" href="assets/css/normalize.css" />
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Cursor CSS -->
+<link rel="stylesheet" type="text/css" href="assets/css/cursor.css">
+
+<!-- My CSS -->
+<link rel="stylesheet" href="assets/css/skill.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+<!--<link rel="stylesheet" href="assets/css/media.css">-->
+
+
+<!-- Holy Favicons Batman! -->
+<link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="assets/img/favicons/favicon-196x196.png" sizes="196x196">
+<link rel="icon" type="image/png" href="assets/img/favicons/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="assets/img/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="assets/img/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="assets/img/favicons/favicon-32x32.png" sizes="32x32">
+<meta name="msapplication-TileColor" content="#4076ff">
+<meta name="msapplication-TileImage" content="assets/img/favicons/mstile-144x144.png">
+<!-- End Favicons -->
+
+</head>
+<body>
+	<header id="header" class="navbar-fixed-top">
+		<section id="place-nav" >
+	    	<nav id='left-nav'>
+	        	<ul>
+	            	<li><a href="#about">About</a></li>
+	                <li><a href="#skills">Skills</a></li>
+	            </ul>
+	        </nav>
+	        <nav id="logo-nav"> 
+	        	<img src="./assets/img/logo.png" alt="main logo" id="main-logo" title="Who I am"/>
+	        	<h1 id="title" class="hide"></h1>
+	        	<img src="./assets/img/monkey-head.png" id="monkey" class="hide" title="It's a monkey"/>
+	        </nav>
+	        <nav id="right-nav">
+	            <ul>
+	                <li><a href="#photography">Photography</a></li>
+	                <li><a href="#contact">Contact</a></li>
+	        	</ul>
+	 		</nav>
+ 		</section>
+    </header>
+
+	<section id="intro">
+		<img src="assets/img/face.png" id="mahFace" title="That's my face"/>
+		<article>
+			<h1><span id="name"></span><span class="nameCursor typed-cursor"></span></h1>
+			<h3><span id="build"></span><span class="buildCursor"></span></h3>			
+		</article>
+
+	</section>
+
+	<section id="about">
+		<h1>A little about myself</h1>
+		<article id="aboutContainer">
+			<img id="portrait" src="assets/img/me.png" title="My mom says I'm handsome"/>
+			<article id="aboutSection">
+				<p>I got into front end development because I was asked to build a website for a family member. I had no idea what I was supposed to do, so I just started Googling how to build websites and downloaded a trial of Dreamweaver. I fell in love instantly with web development. I've been a self taught front-end developer ever since. I'm always striving to create more elegant websites with every project.</p>			
+			</article>			
+		</article>
+	</section>
+
+	<section id="skills">
+		<h1>My abilities</h1>
+		<svg width="800" height="740" id="skillsCanvas"></svg>			
+	</section>
+
+	<section id="photography" class="slider">
+			<h1>Photography</h1>
+			<h1 id="comingsoon">Coming Soon</h1>
+			<h3 id="tag">to a website near you</h3>
+	</section>
+
+	<section id="contact">
+		<h1>Wish to contact me?</h1>
+		<article id="contact-left">
+			
+			<p id="employment"><b>Status</b>: Seeking contracts or full-time employment.</p>
+
+			<p id="location"><b>Where am I at?</b>: St. Peters, Missouri</p>
+			<article id="socialmedia">
+				<a href="https://github.com/tom5191" target="_blank" alt="Github"><img src="./assets/img/icons/github.png" title="Check out my projects on Github" id="github"/></a>
+
+				<a href="https://www.linkedin.com/in/thomas-horner-34936349" target="_blank" alt="LinkedIn"><img src="./assets/img/icons/linkedin.png" id="linkedin" title="Connect on LinkedIn"/></a>
+
+				<a href="https://twitter.com/tom5191" target="_blank" alt="Twitter"><img src="./assets/img/icons/twitter.png" id="twitter" title="Follow me on Twitter (I don't post)"/></a>
+
+				<a href="mailto:thomasehorner@gmail.com" alt="Email"><img src="./assets/img/icons/email.png" id="email" title="You could always email me too"/></a>				
+			</article>
+		</article>
+
+		<article id="contact-right">
+			<article id="form-container">
+				<article id="success">
+					<h1>Thanks!</h1>
+					<h2>I will reply as soon as I can</h2>
+				</article>
+				<form class="form-horizontal" id="form">
+					<label for="name" class="control-label">Name:</label>
+					<input type="text" id="name" name ="name"placeholder="Your name" required  disabled="true" class="form-control"/>
+
+					<label for="email" class="control-label">Email:</label>
+					<input type="email" id="email" name="email" placeholder="your@email.com" required  disabled="true" class="form-control"/>
+
+					<label for="message" class="control-label">Message:</label> 
+					<textarea id="message" name="message" required  disabled="true" class="form-control" placeholder="Your message"></textarea>
+
+					<input type="submit" disabled="true" value="Send" class="btn btn-default btn-lg"/>
+				</form>				
+			</article>
+
+		</article>
+	</section> 
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="./assets/js/in-view.js"></script>
+	<script src="./assets/js/bowser.min.js"></script>
+	<script src="./assets/js/typed.js"></script>
+	<script src="./assets/js/charts.js"></script>
+	<script src="./assets/js/logoscroll.js"></script>
+	<script src="./assets/js/typing.js"></script>
+	<script src="./assets/js/js.js"></script>
+</body>
+</html>

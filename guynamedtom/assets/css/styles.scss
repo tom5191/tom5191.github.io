@@ -1,0 +1,287 @@
+@font-face {
+  font-family: 'Caviar Dreams';
+  src:  url('./../fonts/CaviarDreams.ttf') format('truetype');
+}
+
+@font-face {
+	font-family:'Typewriter';
+	src: url('./../fonts/LUCKY TYPEWRITER.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+$blue: #2b8cc4;
+$purple: #5807af;
+
+body {
+	padding-top:65px;
+	position:relative;
+	width:100%;
+	height:100%;
+	background-color:black;
+	background-image:url("./../img/textured-bgs/paper.png");
+	font-family: 'Caviar Dreams', cursive;
+}
+
+a {
+	text-decoration:none;
+}
+
+header {
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	height:75px;
+	background-image: url("./../img/textured-bgs/zwartevilt.png");
+	background-repeat:repeat;
+	box-shadow:0px 4px 4px #2f2f2f;
+	font-family:'Caviar Dreams', sans-serif;
+	a {
+		color:$blue;
+	}
+	a:hover,a:active {
+		color:$purple;
+		text-decoration:none;
+	}
+}
+
+#place-nav {
+	positition:relative;
+	width:760px;
+	height:186px;
+	margin: 0 auto;
+}
+
+#left-nav {
+	position:relative;
+	float:left;
+	top:22px;
+	width:270px;
+	height:186px;
+	text-align:right;
+}
+
+#right-nav {
+	float:left;
+	position:relative;
+	top:22px;
+	height:186px;
+	width:270px;
+	text-align:left;
+}
+
+#title {
+	color:#fff;
+}
+
+#logo-nav {
+	position:relative;	
+	display:block;
+	width:220px;
+	height:186px;
+	top:-5px;
+	margin:0 auto;
+	float:left;
+	text-align:center;
+	img {
+		margin:0 auto;
+	}
+	#monkey {
+		position:relative;
+		top:-58px;
+		left:90px;
+	}
+	h1 {
+		font-size:1.3em;
+		margin:22px 0 0 0;
+		padding:0;
+	}	
+}
+
+.artisan:before {
+	content:"Artisan"
+}
+
+.codeMonkey:before{
+	content:"Code Monkey"
+}
+
+.developer:before {
+	content:"Developer"
+}
+
+.hide {
+	display:none;
+}
+
+nav {
+	position:relative;
+	display:inline;
+	font-size:1.5em;
+	ul {
+		margin:0 auto;
+		li {
+			display:inline;
+			margin:0 2.5%;
+		}
+	}
+}
+
+#intro {
+	font-family:'Typewriter', cursive;
+	width:100%;
+	height:700px;
+	margin-top:-15px;
+	position:relative;
+	overflow: hidden;
+	article {
+		text-align: center;
+		width:60%;
+		margin: 0 auto;
+	}
+
+}
+
+#mahFace {
+	position: relative;
+	top:400px;
+	left:-200px;
+}
+
+
+#about {
+	height:600px;
+	width:100%;
+	background: url("./../img/textured-bgs/dark_embroidery.png");
+	background-repeat: repeat;
+	font-family: 'Caviar Dreams';
+	overflow: hidden;
+	text-align: center;
+	color:#fff;
+	#portrait {
+		border-radius: 50%;
+		border:5px solid #fff;
+		position: relative;
+		left:0;
+		top:35%;
+		margin-top:-121px;
+	}
+
+	#aboutSection {
+		width:50%;
+		height:auto;
+		float:right;
+		position: relative;
+		top:17%;
+	}
+
+	#aboutContainer {
+		width:90%;
+		height:inherit;
+		margin: 0 auto;
+	}
+
+	p {
+		color:#fff;
+		font-size:1.5em;
+	}
+}
+
+#skills {
+	width:100%;
+	height:870px;
+	padding-bottom: 15px;
+	background:url("./../img/textured-bgs/concrete_seamless.png");
+	background-repeat: repeat;
+	margin-bottom: 0;
+	z-index: 9999;
+	text-align: center;
+	overflow: hidden;
+}
+
+#skillsCanvas {
+	height:830px;
+	width:80%; 
+	position: relative;
+	left:25%;
+	top:44%;	
+	margin-left:-400px;
+	margin-top:-370px;
+	padding-bottom: 50px;
+}
+
+#photography {
+	background: url("./../img/textured-bgs/footer_lodyas.png");
+	background-repeat:repeat;
+	width:100%;
+	height:500px;
+	margin-top:-20px;
+	padding-top: 0;
+	overflow: hidden;
+	color:#fff;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	#comingsoon {
+		position:relative;
+		top:32%;
+		font-size:1em;
+		text-align:center;
+	}
+	#tag {
+		position: relative;
+		top:37%;
+		font-size:2.5em;
+		left:-100%;
+	}
+}
+
+#contact {
+	height:430px;
+	width:100%;
+	text-align: center;
+	font-size:1.3em;
+	overflow: hidden;
+
+	h1 {
+		font-size:2em;
+	}
+}
+
+#contact-left {
+	float:left;
+	height:375px;
+	width:48%;
+	margin: 10px 0;
+	#socialmedia {
+		position: relative;
+		bottom:-50%;
+		a {
+			margin: 0 10px;
+		}
+	}
+
+	#location {
+		position: relative;
+		top:35%;
+	}
+
+	#employment {
+		position: relative;
+		top:20%;
+	}
+}
+
+#contact-right {
+	float:right;
+	height: 375px;
+	width: 48%;
+	margin:10px 0;
+	#form-container {
+		width:80%;
+		margin:auto;
+		height:auto;
+		position: relative;
+		top:15%;
+	}
+}

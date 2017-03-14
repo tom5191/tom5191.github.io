@@ -1,0 +1,222 @@
+@media screen and (max-width: 1186px) {
+  #content h1 {
+    font-size: 5.5em; }
+  #content h2 {
+    font-size: 4em; }
+  #content #about h1 {
+    font-size: 3.5em; }
+  #content #skills h1 {
+    font-size: 3.5em; }
+  #content #contact h1 {
+    font-size: 3.5em; }
+  #content #contact #contact-wrapper p {
+    font-size: 1.5em; } }
+@media screen and (max-width: 990px) {
+  h1 {
+    text-align: center; }
+
+  #content h1 {
+    font-size: 4.85em; }
+  #content h2 {
+    font-size: 3.65em; }
+  #content #contact #contact-wrapper p {
+    font-size: 1.25em; } }
+@media screen and (max-width: 900px) {
+  h1 {
+    text-align: center; }
+
+  #content h1 {
+    font-size: 4.5em; }
+  #content h2 {
+    font-size: 3.35em; }
+  #content #contact #contact-wrapper p {
+    font-size: 1.25em; }
+  #content #about h1 {
+    font-size: 2.75em; }
+  #content #about .img {
+    width: 40%;
+    height: 40%; }
+  #content #skills h1 {
+    font-size: 2.75em; }
+  #content #contact h1 {
+    font-size: 2.75em; }
+  #content #contact #contact-wrapper p {
+    font-size: 1.25em; } }
+@media screen and (max-width: 800px) {
+  #sidebar {
+    width: 100px; }
+    #sidebar #navbar h1 {
+      font-size: 2em; }
+
+  h1 {
+    text-align: center; }
+
+  #content h1 {
+    font-size: 4.35em; }
+  #content h2 {
+    font-size: 3.35em; }
+  #content #contact #contact-wrapper p {
+    font-size: 1.25em; } }
+@media screen and (max-width: 800px), screen and (max-height: 550px) {
+  #sidebar {
+    width: 100px; }
+    #sidebar #navbar {
+      margin-top: 30px; }
+      #sidebar #navbar h1 {
+        font-size: 2.5em;
+        margin-bottom: 40px; }
+    #sidebar #home {
+      left: 25px; }
+    #sidebar #email {
+      left: 10px; }
+    #sidebar #media {
+      left: 15px; }
+    #sidebar .copy {
+      font-size: 0.8em;
+      left: 7px; } }
+/* *******************************
+**********************************
+************ MIXINS **************
+**********************************
+*********************************/
+/****************************
+*****************************
+***** Phone and tablet ******
+*****************************
+****************************/
+@media screen and (max-width: 772px) {
+  .navImg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 45px;
+    width: 45px;
+    border-radius: 1px; }
+
+  #sidebar {
+    positon: absolute;
+    display: none;
+    width: 45%; }
+    #sidebar #navbar h1 {
+      font-size: 3.5em; }
+    #sidebar #home {
+      display: none; }
+    #sidebar #email {
+      left: 17%; }
+    #sidebar #media {
+      left: 17.25%; }
+    #sidebar .copy {
+      left: 16.25%; }
+
+  #content {
+    width: 100%; }
+
+  #content {
+    width: 100%; }
+    #content h1 {
+      font-size: 4em; }
+    #content h2 {
+      font-size: 3em; } }
+@media screen and (max-width: 700px), screen and (max-height: 430px) {
+  .navImg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 45px;
+    width: 45px;
+    border-radius: 1px; }
+
+  #sidebar {
+    positon: absolute;
+    display: none;
+    width: 45%; }
+    #sidebar #navbar h1 {
+      font-size: 3.5em; }
+    #sidebar #home {
+      display: none; }
+    #sidebar #email {
+      left: 17%; }
+    #sidebar #media {
+      left: 17.25%; }
+    #sidebar .copy {
+      left: 16.25%; }
+
+  #content {
+    width: 100%; }
+
+  #content .wrapper {
+    width: 100%; }
+  #content h1 {
+    font-size: 3.25em; }
+  #content h2 {
+    font-size: 2.25em; }
+  #content .img {
+    width: 70%;
+    height: 70%; } }
+@media screen and (max-width: 540px), screen and (orientation: portrait) {
+  .navImg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 45px;
+    width: 45px;
+    border-radius: 1px; }
+
+  #sidebar {
+    positon: absolute;
+    display: none;
+    width: 45%; }
+    #sidebar #navbar h1 {
+      font-size: 3.5em; }
+    #sidebar #home {
+      display: none; }
+    #sidebar #email {
+      left: 17%; }
+    #sidebar #media {
+      left: 17.25%; }
+    #sidebar .copy {
+      left: 16.25%; }
+
+  #content {
+    width: 100%; }
+
+  #content h1 {
+    font-size: 3.25em; }
+  #content h2 {
+    font-size: 2.25em; }
+  #content #skill ul {
+    position: relative;
+    left: 400px; } }
+@media screen and (max-width: 380px), screen and (orientation: portrait) {
+  .navImg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 45px;
+    width: 45px;
+    border-radius: 1px; }
+
+  #sidebar {
+    positon: absolute;
+    display: none;
+    width: 45%; }
+    #sidebar #navbar h1 {
+      font-size: 3.5em; }
+    #sidebar #home {
+      display: none; }
+    #sidebar #email {
+      left: 17%; }
+    #sidebar #media {
+      left: 17.25%; }
+    #sidebar .copy {
+      left: 16.25%; }
+
+  #content {
+    width: 100%; }
+
+  #content h1 {
+    font-size: 3em; }
+  #content h2 {
+    font-size: 2em; } }
+
+/*# sourceMappingURL=media.css.map */

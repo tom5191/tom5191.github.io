@@ -1,0 +1,287 @@
+@media screen and (max-width:1186px) {
+
+	#content {
+		h1 {
+			font-size:5.5em;
+		}
+		h2 {
+			font-size:4em;
+		}
+
+		#about {
+			h1 {
+				font-size:3.5em;
+			}
+		}
+		#skills {
+			h1 {
+				font-size:3.5em;
+			}
+		}
+		#contact {
+			h1 {
+				font-size:3.5em;
+			}
+		}
+
+		#contact {
+			#contact-wrapper{
+				p {
+					font-size:1.5em;
+				}
+			}
+		}
+	}
+
+}
+
+@media screen and (max-width:990px) {
+	h1 {
+		text-align:center;
+	}
+	#content {
+		h1 {
+			font-size:4.85em;
+		}
+		h2 {
+			font-size:3.65em;
+		}
+		#contact {
+			#contact-wrapper{
+				p {
+					font-size:1.25em;
+				}
+			}
+		}
+	}
+
+}
+
+
+
+
+@media screen and (max-width:900px) {
+	h1 {
+		text-align:center;
+	}
+	#content {
+		h1 {
+			font-size:4.5em;
+		}
+		h2 {
+			font-size:3.35em;
+		}
+		#contact {
+			#contact-wrapper{
+				p {
+					font-size:1.25em;
+				}
+			}
+		}
+		#about {
+			h1 {
+				font-size:2.75em;
+			}
+			.img {
+				width:40%;
+				height:40%;
+			}
+		}
+		#skills {
+			h1 {
+				font-size:2.75em;
+			}
+		}
+		#contact {
+			h1 {
+				font-size:2.75em;
+			}
+		}
+
+		#contact {
+			#contact-wrapper{
+				p {
+					font-size:1.25em;
+				}
+			}
+		}
+	}
+
+}
+
+
+
+@media screen and (max-width:800px) {
+	
+	#sidebar {
+		width:100px;
+		#navbar {
+			h1 {
+				font-size:2em;
+			}
+		}
+	}
+
+	h1 {
+		text-align:center;
+	}
+	#content {
+		h1 {
+			font-size:4.35em;
+		}
+		h2 {
+			font-size:3.35em;
+		}
+		#contact {
+			#contact-wrapper{
+				p {
+					font-size:1.25em;
+				}
+			}
+		}
+	}
+
+}
+
+@media screen and (max-width:800px), screen and (max-height:550px) {
+	#sidebar {
+		width:100px;
+		#navbar {
+			margin-top:30px;
+			h1 {
+				font-size:2.5em;
+				margin-bottom:40px;
+
+			}
+		}
+
+		#home {
+			left:25px;
+		}
+		#email {
+			left:10px;
+		}
+		#media {
+			left:15px;
+		}
+		.copy {
+			font-size:0.8em;
+			left:7px;
+		}
+	}
+	
+}
+
+/* *******************************
+**********************************
+************ MIXINS **************
+**********************************
+*********************************/
+@mixin mobile-nav {
+	.navImg {
+		position:fixed;
+		top:0;
+		right:0;
+		height:45px;
+		width:45px;
+		border-radius:1px;
+		}
+	#sidebar {
+		positon:absolute;
+		display: none;
+		width: 45%;
+		#navbar {
+			h1 {
+				font-size: 3.5em;
+			}
+
+		}
+		#home {	display:none; }
+		#email{ left:17%;}
+		#media{ left:17.25%;}
+		.copy { left:16.25%; }
+	}
+	#content {
+		width:100%;
+	}
+}
+
+/****************************
+*****************************
+***** Phone and tablet ******
+*****************************
+****************************/
+@media screen and (max-width:772px) {
+	@include mobile-nav;
+	#content {
+	width:100%;
+		h1 {
+			font-size:4em;
+		}
+		h2 {
+			font-size:3em;
+		}
+	}
+
+}
+
+
+@media screen and (max-width:700px), screen and (max-height:430px) {
+
+	@include mobile-nav;
+
+	#content {
+		.wrapper {
+			width:100%;
+		}
+		h1 {
+			font-size:3.25em;
+		}
+		h2 {
+			font-size:2.25em;
+		}
+
+		.img {
+			width:70%;
+			height:70%;
+		}
+
+		
+	}
+}
+
+
+@media screen and (max-width:540px),
+	   screen and (orientation:portrait) {
+@include mobile-nav;
+	#content {
+
+		h1 {
+			font-size:3.25em;
+		}
+		h2 {
+			font-size:2.25em;
+		}
+		#skill {
+			ul {
+				position:relative;
+				left:400px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width:380px), screen and (orientation:portrait) {
+	@include mobile-nav;
+
+
+	#content {
+
+		h1 {
+			font-size:3em;
+		}
+		h2 {
+			font-size:2em;
+		}
+}
+}
